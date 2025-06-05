@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFCDE0"
+    tools:context=".FirstFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:text="PRIMEIRO FRAGMENT"
+        android:textColor="#FC719F"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonrosa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="280dp"
+        android:backgroundTint="#FC719F"
+        android:text="1º Fragment"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonamarelo"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="340dp"
+        android:backgroundTint="#FFC107"
+        android:text="2º Fragment"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonverde"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="410dp"
+        android:backgroundTint="#8BC34A"
+        android:text="3º Fragment"
+        android:textSize="20sp" />
+
+</FrameLayout>
